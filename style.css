@@ -1,0 +1,17 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    background: #191919;
+    width: 100%;
+}
+
+#canvas {
+    background: url('img/13Mesa\ de\ trabajo\ 1-100.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#canvas.playing {
+    cursor: url('img/13Mesa\ de\ trabajo\ 1-8.png') 17.5 17.5,auto !important;
+}
