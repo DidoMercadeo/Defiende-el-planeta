@@ -4,6 +4,11 @@ html {
     background: #191919;
     width: 100%;
 }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 #canvas {
     background: url('img/13Mesa\ de\ trabajo\ 1-100.jpg') no-repeat;
