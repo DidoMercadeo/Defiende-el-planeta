@@ -351,7 +351,7 @@ function game() {
     }
 
     function start() {
-        if(!gameOver) {
+        if(!Perdiste) {
             //Clear
             ctx.clearRect(0, 0, cW, cH);
             ctx.beginPath();
@@ -403,7 +403,7 @@ function game() {
             ctx.font = "20px Verdana";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText("RECORD: "+ record, cW/2,cH/2 + 185);
+            ctx.fillText("PUNTUACIÓN: "+ record, cW/2,cH/2 + 185);
 
             ctx.drawImage(sprite, 500, 18, 70, 70, cW/2 - 35, cH/2 + 40, 70,70);
 
